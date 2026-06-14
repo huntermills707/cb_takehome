@@ -19,7 +19,7 @@ The initial exploration focused on data cleaning, understanding the dataset's st
 - Analysis of the most recent data (pre-2020) reveals a mix of public and private institutions, with varying statuses for PhD granting and specialization.
   - pre-2020 was selected because some values stopped being tracked in 2020 (as per schema).
 - PhD granting is very low, but not missing. This seems off to me.
-  - Possibly NaN values were imputed as 0 at some point and corrupting this elment.
+  - Possibly NaN values were imputed as 0 at some point and corrupting this element.
 - Otherwise, these all seem fair.
 
 ![Institutional Characteristics](01_output/03_institutional_characteristics.png)
