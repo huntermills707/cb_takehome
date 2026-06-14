@@ -57,7 +57,7 @@ def plot_2g_bar(groups, ax, title=None, xticklabels=None):
 
 
 def plot_hbox(groups, ax, title=None, xlabel=None, ylabel=None):
-    ax.boxplot(groups.values(), labels=groups.keys(), orientation='horizontal')
+    ax.boxplot(groups.values(), label=groups.keys(), orientation='horizontal')
 
     ax.set_title(title)
     ax.set_xlabel(xlabel)
